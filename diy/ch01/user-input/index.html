@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>user input - DIY</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{message}}</p>
+        <input type="text" v-model="message"/>
+    </div>
+
+    <script>
+        const App = {
+            data: () => ({ message: 'hello world.' })
+        };
+        Vue.createApp(App).mount('#app');
+    </script>
+</body>
+</html>

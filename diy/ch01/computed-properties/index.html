@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>computed property - DIY</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{message}}</p>
+        <p>{{reversedMessage}}</p>
+    </div>
+    <script>
+        const App = {
+            data: () => ({ message: 'hello world' }),
+            computed: {
+                reversedMessage() {
+                    return this.message.split('').reverse().join('')
+                }
+            }
+        };
+        Vue.createApp(App).mount('#app');
+    </script>
+</body>
+</html>

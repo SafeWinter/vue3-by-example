@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>v-html - DIY</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <div id="app">
+        <span v-html="rawHtml"></span>
+    </div>
+    <script>
+        const App = {
+            data: () => ({ rawHtml: '<b>hello world</b>' })
+        };
+        Vue.createApp(App).mount('#app');
+    </script>
+</body>
+</html>

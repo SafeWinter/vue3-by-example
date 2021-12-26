@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>count++ - DIY</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <div id="app">
+        <button @click="count++">increment</button>
+        count: {{count}}
+    </div>
+
+    <script>
+        const App = {
+            data: () => ({count: 0})
+        };
+        Vue.createApp(App).mount('#app');
+    </script>
+</body>
+</html>
