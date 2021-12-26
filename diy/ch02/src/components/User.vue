@@ -16,7 +16,7 @@
 import { octokitMixin } from '../mixins/octokitMixin';
 
 export default {
-  name: 'DemoUser',
+  name: 'User',
   data() {
     return {
       userData: {},

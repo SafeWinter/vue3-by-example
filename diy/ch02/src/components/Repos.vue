@@ -13,7 +13,7 @@ import Issues from './repo/Issues.vue';
 import { octokitMixin } from '../mixins/octokitMixin';
 
 export default {
-  name: 'DemoRepos',
+  name: 'Repos',
   components: {
     Issues,
   },
