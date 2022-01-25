@@ -17,7 +17,7 @@
 1. 笔记以 `markdown` 文件整理，一般以章节标题为文件名；
 2. 项目代码则按章节存入 `diy` 文件夹；
 3. 随书附源码按章节放在 `demos` 文件夹
-3. 原始代码库：https://github.com/PacktPublishing/-Vue.js-3-By-Example
+3. 官方原书 `Git` 库：https://github.com/PacktPublishing/-Vue.js-3-By-Example
 
 
 
