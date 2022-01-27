@@ -9,14 +9,12 @@
 </template>
 
 <script>
-import Issues from './repo/Issues.vue';
 import { octokitMixin } from '../mixins/octokitMixin';
+import Issues from './repo/Issues.vue';
 
 export default {
   name: 'Repos',
-  components: {
-    Issues,
-  },
+  components: { Issues },
   data() {
     return {
       repos: [],
@@ -30,3 +28,5 @@ export default {
   },
 };
 </script>
+
+<style></style>

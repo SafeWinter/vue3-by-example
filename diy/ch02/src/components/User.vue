@@ -2,12 +2,10 @@
   <div>
     <h1>User Info</h1>
     <ul>
-      <li>
-        <img :src="userData.avatar_url" id="avatar" />
-      </li>
+      <li><img :src="userData.avatar_url" id="avatar" /></li>
       <li>username: {{ userData.login }}</li>
       <li>followers: {{ userData.followers }}</li>
-      <li>plan: {{ userData.pla && userData.plan.name }}</li>
+      <li>plan: {{ userData.plan && userData.plan.name }}</li>
     </ul>
   </div>
 </template>

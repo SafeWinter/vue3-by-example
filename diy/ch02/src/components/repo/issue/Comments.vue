@@ -11,22 +11,12 @@
 
 <script>
 import { octokitMixin } from '../../../mixins/octokitMixin';
-
 export default {
   name: 'IssueComments',
   props: {
-    owner: {
-      type: String,
-      required: true,
-    },
-    repo: {
-      type: String,
-      required: true,
-    },
-    issueNumber: {
-      type: Number,
-      required: true,
-    },
+    owner: { type: String, required: true },
+    repo: { type: String, required: true },
+    issueNumber: { type: Number, required: true },
   },
   data() {
     return {
@@ -43,6 +33,7 @@ export default {
       ) {
         return;
       }
+
       const octokit = this.createOctokitClient();
       const { data: comments } = await octokit.issues.listComments({
         owner,
@@ -74,3 +65,5 @@ export default {
   },
 };
 </script>
+
+<style></style>

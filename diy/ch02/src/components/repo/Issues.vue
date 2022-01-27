@@ -5,9 +5,13 @@
     </button>
     <div v-if="showIssues">
       <div v-for="i of issues" :key="i.id">
-        <h3>{{ i.title }}</h3>
+        <h3>H3: {{ i.title }}</h3>
         <a :href="i.url">Go to issue</a>
-        <IssueComments :owner="owner" :repo="repo" :issueNumber="i.number" />
+        <IssueComments
+          :owner="owner"
+          :repo="repo"
+          :issueNumber="i.issueNumber"
+        />
       </div>
     </div>
   </div>
@@ -16,21 +20,12 @@
 <script>
 import { octokitMixin } from '../../mixins/octokitMixin';
 import IssueComments from './issue/Comments.vue';
-
 export default {
   name: 'RepoIssues',
-  components: {
-    IssueComments,
-  },
+  components: { IssueComments },
   props: {
-    owner: {
-      type: String,
-      required: true,
-    },
-    repo: {
-      type: String,
-      required: true,
-    },
+    owner: { type: String, required: true },
+    repo: { type: String, required: true },
   },
   mixins: [octokitMixin],
   data() {
@@ -62,9 +57,11 @@ export default {
     repo: {
       immediate: true,
       handler(val) {
-        this.getRepoIssues(this.issues, val);
+        this.getRepoIssues(this.owner, val);
       },
     },
   },
 };
 </script>
+
+<style></style>

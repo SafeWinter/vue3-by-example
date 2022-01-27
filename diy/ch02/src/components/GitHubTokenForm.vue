@@ -14,14 +14,14 @@
 
 <script>
 export default {
-  name: 'GitHubTokenForm',
+  name: 'githubTokenForm',
   data() {
     return {
       githubToken: '',
     };
   },
   beforeMount() {
-    this.githubToken = localStorage.getItem('github-token');
+    this.githubToken = localStorage.setItem('github-token');
   },
   methods: {
     saveToken() {
@@ -33,3 +33,5 @@ export default {
   },
 };
 </script>
+
+<style></style>
