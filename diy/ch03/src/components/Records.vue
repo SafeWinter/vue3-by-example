@@ -7,6 +7,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   data() {
@@ -14,14 +15,16 @@ export default {
       records: [],
     };
   },
-  beforeMount() {
+  created() {
     this.getRecords();
   },
   methods: {
     getRecords() {
-      const records = JSON.parse(localStorage.getItem("records")) || [];
+      const records = JSON.parse(localStorage.getItem('records')) || [];
       this.records = records;
     },
   },
 };
 </script>
+
+<style></style>

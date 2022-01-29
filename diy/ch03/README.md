@@ -1,4 +1,4 @@
-# ch03
+# vue-example-ch3-slider-puzzle
 
 ## Project setup
 ```
