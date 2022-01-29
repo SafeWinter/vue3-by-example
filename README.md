@@ -45,7 +45,7 @@
 |  **ch1**  |    [Creating Your First Application in Vue 3](./Ch01.md)     | :heavy_check_mark: | :heavy_check_mark: |
 | **ch1s3** | [Vue 3 core features – components and built-in directives](./Ch01.S3-Vue-3-core-features.md) | :heavy_check_mark: | :heavy_check_mark: |
 |  **ch2**  |      [Building a Vue 3 Progressive Web App](./Ch02.md)       | :heavy_check_mark: | :heavy_check_mark: |
-|  **ch3**  |    [Building a Slider Puzzle Game with Tests](./Ch03.md)     |    :hourglass:     | :heavy_check_mark: |
+|  **ch3**  |    [Building a Slider Puzzle Game with Tests](./Ch03.md)     | :heavy_check_mark: | :heavy_check_mark: |
 |  **ch4**  |     [Building a Photo Management Desktop App](./Ch04.md)     |    :hourglass:     |    :hourglass:     |
 |  **ch5**  |   Building a Multipurpose Calculator Mobile App with Ionic   |   :orange_book:    |     :no_entry:     |
 |  **ch6**  | Building a Vacation Booking App with the PrimeVue UI Framework |     :no_entry:     |     :no_entry:     |
