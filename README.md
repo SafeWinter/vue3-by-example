@@ -47,7 +47,7 @@
 |  **ch2**  |      [Building a Vue 3 Progressive Web App](./Ch02.md)       |    :heavy_check_mark:    | :heavy_check_mark: |
 |  **ch3**  |    [Building a Slider Puzzle Game with Tests](./Ch03.md)     |    :heavy_check_mark:    | :heavy_check_mark: |
 |  **ch4**  |     [Building a Photo Management Desktop App](./Ch04.md)     |    :heavy_check_mark:    | :heavy_check_mark: |
-|  **ch5**  |   Building a Multipurpose Calculator Mobile App with Ionic   |      :orange_book:       |     :no_entry:     |
+|  **ch5**  | [Building a Multipurpose Calculator Mobile App with Ionic](./Ch05.md) |    :heavy_check_mark:    | :heavy_check_mark: |
 |  **ch6**  | Building a Vacation Booking App with the PrimeVue UI Framework | :hourglass_flowing_sand: |     :no_entry:     |
 |  **ch7**  |         Creating a Shopping Cart System with GraphQL         |        :no_entry:        |     :no_entry:     |
 |  **ch8**  |    Building a Chat App with Vue 3, Laravel, and Socket.IO    |        :no_entry:        |     :no_entry:     |
