@@ -49,6 +49,7 @@
 |  **ch4**  |     [Building a Photo Management Desktop App](./Ch04.md)     | :heavy_check_mark: |    :heavy_check_mark:    |
 |  **ch5**  | [Building a Multipurpose Calculator Mobile App with Ionic](./Ch05.md) | :heavy_check_mark: |    :heavy_check_mark:    |
 |  **ch6**  | [Building a Vacation Booking App with the PrimeVue UI Framework](./Ch06.md) | :heavy_check_mark: |    :heavy_check_mark:    |
-|  **ch7**  |  [Creating a Shopping Cart System with GraphQL](./Ch07.md)   |   :orange_book:    | :hourglass_flowing_sand: |
+|  **ch7**  |  [Creating a Shopping Cart System with GraphQL](./Ch07.md)   | :heavy_check_mark: | :hourglass_flowing_sand: |
 |  **ch8**  | [Building a Chat App with Vue 3, Laravel, and Socket.IO](./Ch08.md) |     :no_entry:     |        :no_entry:        |
 
+由于第八章大量篇幅和 `PHP` 相关，暂未进行整理（暂时保留）
