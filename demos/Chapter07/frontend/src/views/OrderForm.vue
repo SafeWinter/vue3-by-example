@@ -36,12 +36,12 @@
 </template>
 
 <script>
-import { GraphQLClient, gql } from "graphql-request";
-import { mapMutations, mapGetters } from "vuex";
-import { Form, Field, ErrorMessage } from "vee-validate";
-import * as yup from "yup";
+import { GraphQLClient, gql } from 'graphql-request';
+import { mapMutations, mapGetters } from 'vuex';
+import { Form, Field, ErrorMessage } from 'vee-validate';
+import * as yup from 'yup';
 
-const APIURL = "http://localhost:3000/graphql";
+const APIURL = 'http://localhost:3000/graphql';
 const graphQLClient = new GraphQLClient(APIURL);
 const schema = yup.object({
   name: yup.string().required(),
@@ -50,7 +50,7 @@ const schema = yup.object({
 });
 
 export default {
-  name: "OrderForm",
+  name: 'OrderForm',
   data() {
     return {
       schema,
@@ -62,7 +62,7 @@ export default {
     ErrorMessage,
   },
   computed: {
-    ...mapGetters(["cartItemsAdded"]),
+    ...mapGetters(['cartItemsAdded']),
   },
   methods: {
     async submitOrder({ name, phone, address }) {
@@ -101,9 +101,9 @@ export default {
       };
       await graphQLClient.request(mutation, variables);
       this.clearCart();
-      this.$router.push("/success");
+      this.$router.push('/success');
     },
-    ...mapMutations(["addCartItem", "removeCartItem", "clearCart"]),
+    ...mapMutations(['addCartItem', 'removeCartItem', 'clearCart']),
   },
 };
 </script>
